@@ -1,0 +1,49 @@
+/* =====================
+   BRUTAL BUTTON
+===================== */
+
+.brutal-button {
+  border: 3px solid black;
+  box-shadow: 5px 5px 0 black;
+  transition: all 0.2s ease;
+}
+
+.brutal-button:hover {
+  transform: translate(-2px, -2px);
+  box-shadow: 7px 7px 0 black;
+}
+
+/* =====================
+   BRUTAL CARD
+===================== */
+
+.brutal-card {
+  border: 3px solid black;
+  box-shadow: 5px 5px 0 black;
+}
+
+/* =====================
+   BRUTAL PILL
+===================== */
+
+.brutal-pill {
+  border: 3px solid black;
+  box-shadow: 3px 3px 0 black;
+}
+
+/* =====================
+   SECTION TITLE
+===================== */
+
+.section-title {
+  font-family: "Fredoka", sans-serif;
+  font-weight: 700;
+}
+
+/* =====================
+   PANEL BORDER
+===================== */
+
+.section-panel {
+  border-bottom: 3px solid black;
+}
