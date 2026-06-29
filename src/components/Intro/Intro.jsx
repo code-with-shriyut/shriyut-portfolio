@@ -1,5 +1,5 @@
 import { useRef, useState } from "react";
-import avatarIntro from "../../assets/videos/avatarIntro.mp4";
+import avatarIntro from "../../assets/videos/avatarIntroFixed.mp4";
 
 function Intro({ onFinish }) {
 
