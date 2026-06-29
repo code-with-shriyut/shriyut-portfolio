@@ -1,16 +1,56 @@
-# React + Vite
+# 🚀 Shriyut.dev — Building Ideas Into Reality
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Welcome to my personal portfolio! 👋
 
-Currently, two official plugins are available:
+This portfolio reflects my journey as a Computer Science student passionate about **Artificial Intelligence, Machine Learning, Data Analytics, FinTech, and Full-Stack Development**. It showcases the projects I've built, the skills I've learned, and the milestones I've achieved along the way.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## ✨ Highlights
 
-## React Compiler
+* 🎨 Custom kawaii-inspired UI/UX
+* ⚡ Smooth animations with Framer Motion
+* 🗺️ Interactive journey timeline
+* 🏆 Achievement showcase
+* 💻 Featured projects
+* 🛠️ Technical skills
+* 📄 Resume download
+* 📱 Responsive design
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🛠️ Built With
 
-## Expanding the ESLint configuration
+* React.js
+* Vite
+* Tailwind CSS
+* Framer Motion
+* Lucide React
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🚀 Getting Started
+
+Clone the repository:
+
+```bash
+git clone https://github.com/<your-username>/shriyut-portfolio.git
+```
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Start the development server:
+
+```bash
+npm run dev
+```
+
+## 🌐 Live Portfolio
+
+**Coming Soon...**
+
+## 📬 Let's Connect
+
+Feel free to connect with me through the links available in the portfolio.
+
+---
+
+⭐ If you enjoyed exploring my portfolio, consider giving this repository a star!
