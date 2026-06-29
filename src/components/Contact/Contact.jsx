@@ -1,7 +1,7 @@
 import { motion } from "framer-motion";
 import { TypeAnimation } from "react-type-animation";
 import ByeAvatar from "../../assets/kawaii/ByeAvatar.png";
-
+import { FaGithub, FaLinkedin, FaEnvelope } from "react-icons/fa";
 function Contact() {
   return (
     <section
@@ -40,7 +40,7 @@ function Contact() {
           right-6
           w-44
           rotate-[-8deg]
-          z-20
+          z-0
         "
       />
 
@@ -171,7 +171,9 @@ function Contact() {
           flex
           justify-center
           flex-wrap
-          gap-5
+          gap-6
+          relative
+          z-50
           "
         >
 
@@ -179,83 +181,129 @@ function Contact() {
           <a
             href="https://github.com/code-with-shriyut"
             target="_blank"
-
+            rel="noopener noreferrer"
             className="
-            bg-[#FFE600]
-            px-10
-            py-4
+            w-48
 
-            rounded-xl
+            flex
+            items-center
+            justify-center
+            gap-3
 
-            border-[3px]
+            bg-white
+
+            border-[4px]
             border-black
 
-            shadow-[5px_5px_0_white]
+            rounded-2xl
+
+            px-6
+            py-4
+
+            shadow-[6px_6px_0_black]
 
             font-black
+
             hover:-translate-y-2
-            transition
+            hover:rotate-[-2deg]
+            hover:scale-105
+
+            transition-all
+            duration-300
             "
           >
-            Github ★
+
+            <FaGithub size={24} />
+
+            GitHub
+
           </a>
 
 
 
           <a
-            href="https://www.linkedin.com/in/shriyut-janardan"
+            href="https://www.linkedin.com/in/shriyut-janardan-84564a22a/"
             target="_blank"
-
+            rel="noopener noreferrer"
             className="
-            bg-blue-600
+            w-48
+
+            flex
+            items-center
+            justify-center
+            gap-3
+
+            bg-[#8B6CFF]
+
             text-white
 
-            px-10
-            py-4
-
-            rounded-xl
-
-            border-[3px]
+            border-[4px]
             border-black
 
-            shadow-[5px_5px_0_white]
+            rounded-2xl
+
+            px-6
+            py-4
+
+            shadow-[6px_6px_0_black]
 
             font-black
+
             hover:-translate-y-2
-            transition
+            hover:rotate-[2deg]
+            hover:scale-105
+
+            transition-all
+            duration-300
             "
           >
-            LinkedIn ♡
+
+            <FaLinkedin size={24} />
+
+            LinkedIn
+
           </a>
 
 
 
 
           <a
-
-            href="shriyutjanardan@gmail.com"
-
-
+            href="mailto:shriyutjanardan@gmail.com"
             className="
-            bg-[#FF2D78]
-            text-white
+            w-48
 
-            px-10
-            py-4
+            flex
+            items-center
+            justify-center
+            gap-3
 
-            rounded-xl
+            bg-[#FFE600]
 
-            border-[3px]
+            border-[4px]
             border-black
 
-            shadow-[5px_5px_0_white]
+            rounded-2xl
+
+            px-6
+            py-4
+
+            shadow-[6px_6px_0_black]
 
             font-black
+
             hover:-translate-y-2
-            transition
+            hover:rotate-[-2deg]
+            hover:scale-105
+
+            transition-all
+            duration-300
             "
           >
-            Email →
+
+            <FaEnvelope size={24} />
+
+            Email
+
           </a>
 
 
@@ -268,7 +316,7 @@ function Contact() {
           "
         >
 
-          Made with ♡ by Shriyut • 2026
+          💗Collecting experiences • Building impact • Levelling Up everyday⚡ 
 
           
 
